@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const bot = new Discord.Client();
 const config = require("./config.json");
 const token = require("./config.json");
-bot.login(config.token)
+
 bot.on('ready',()=> {
     console.log(`Bot logging at discord ${bot.user.tag}!`);
 });
